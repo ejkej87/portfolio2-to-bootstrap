@@ -1,0 +1,268 @@
+section {
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+
+/*navigation*/
+
+h1,
+h2{
+  padding-top: 40px; 
+  padding-bottom: 20px;
+}
+
+#main-nav {
+   background-color: #fff;
+   -webkit-transition: all 0.4s ;
+   transition: all 0.4s ;
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+}
+
+#main-nav ul li a{
+   color: rgb(26, 192, 86);
+}
+
+#main-nav ul li a:hover{
+   text-decoration: underline;
+   margin-right: 0;
+}
+
+.navbar-expand-lg .navbar-collapse {
+   -webkit-box-pack: end;
+   -ms-flex-pack: end;
+   justify-content: flex-end;
+}
+
+
+
+/*header*/
+
+header{
+   background-image: url(../img/keyboard-2529270_960_720.jpg);
+   background-size: cover;
+   height: 100vh;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   text-align:center;
+}
+
+header h1,
+header h3{
+   color: #fff;
+}
+
+header h1{
+   font-size: 3em;
+   padding-bottom: 20px;
+}
+
+header h3{
+   font-size: 2em;
+}
+
+
+header h1 span{
+   color: rgb(26, 192, 86);
+}
+
+/*section o mnie*/
+
+#about{
+   background: #F9FCFE;
+}
+
+.col-sm-6 img{
+   width: 50%;
+}
+
+.col-sm-6 img{
+   margin: 30px 0;
+}
+
+.added {
+   text-align: center;
+}
+
+
+
+/*skills*/
+
+#skills p{
+   margin-left: 40px;;
+   margin-right: 40px;
+}
+#skills figure{
+   padding: 30px;
+}
+
+
+/*portfolio*/
+
+
+#portfolio {
+   text-align: center;
+}
+
+.portfolio-item {
+   height: 350px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+.portfolio-item .portfolio-item-mask {
+   height: 100%;
+   background-color: rgba(42, 61, 79, 0.8);
+   opacity: 0;
+   -webkit-transition: all 0.4s;
+   transition: all 0.4s;
+   padding: 10px;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.portfolio-item .portfolio-item-mask:hover {
+   opacity: 1;
+}
+
+.portfolio-item .portfolio-item-border {
+   border: 1px solid #FFF;
+   height: 100%;
+   position: relative;
+}
+
+.portfolio-item .portfolio-item-content {
+   text-align: center;
+   color: #FFF;
+   position: absolute;
+   width: 100%;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
+#portfolio-item-1 {
+   background-image: url('../img/portfolio1.jpg');
+}
+
+#portfolio-item-2 {
+   background-image: url('../img/portfolio2.jpg');
+}
+
+#portfolio-item-3 {
+   background-image: url('../img/portfolio3.jpg');
+}
+
+
+#portfolio #left,
+#portfolio #center,
+#portfolio #right{
+   padding-left: 0;
+   padding-right: 0;
+}
+
+
+/*contact*/
+
+
+#contact {
+   background-color: #213b50;
+   color: #FFF;
+   margin-bottom: 0;
+   
+}
+#contact #adress{
+   text-align: left; 
+
+}
+
+#contact  span{
+   color: #1AC056;
+}
+
+.social-icons a {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-right: 10px;
+   text-align: center;
+   line-height: 50px;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 1px solid #FFF;
+   color: #FFF
+}
+.social-icons a i{
+   line-height: inherit;
+}
+
+
+#contact  form input,
+#contact  form textarea {
+   background-color: #2b4a64;
+   border: 1px solid #2b4a64;
+   color: #FFF;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   width: 100%;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+#contact form textarea {
+   resize: none;
+}
+
+/*footer*/
+
+footer {
+   background-color: #142634;
+   padding: 0 60px;
+}
+
+footer p {
+   margin: 0;
+   color: #FFF;
+}
+
+#contact .social-icons a:hover{
+   color: #142634;
+   background-color: #fff;
+}
+
+
+#contact form input:focus {
+   border-color: #FFF;
+}
+
+#contact  form input[type="submit"] {
+   float: right;
+   width: 20%;
+   background-color: #1AC056;
+   border: 1px solid #1AC056;
+   color: #FFF;
+   text-transform: uppercase;
+   -webkit-transition: all 0.4s;
+   transition: all 0.4s;
+}
+
+
+
+#contact form input[type="submit"]:hover{ 
+   background-color: #FFF;
+   color: #1AC056;
+}
+
+
+
+
+
